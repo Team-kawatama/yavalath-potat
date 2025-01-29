@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+.tama {
+    background-color: skyblue;
+}
+ul {
+    position: absolute;
+    display: -webkit-flex;
+    display: flex;
+    left: 30%;
+    transform: translate(-50%,0);
+    height: 13%;
+}
+li{
+    margin: -1px;
+    height: 100%;
+    list-style: none;
+}
+.ailog{
+    background-color: cornflowerblue;
+    position: absolute;
+    top: 5%;
+    left: 61%;
+    width: 38%;
+    height: 90%;
+    border: solid white;
+    overflow-wrap: break-word;
+    overflow-Y:scroll;
+    overflow-X:hidden
+}
